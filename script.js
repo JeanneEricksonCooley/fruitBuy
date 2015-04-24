@@ -37,7 +37,7 @@ var Pear = {
 
 
 var User = {
-	cash: 100
+	cash: 50
 }
 
 function randomNumber(min, max) {
@@ -57,7 +57,7 @@ function avgPrice(array) {
 
 function priceChange(object) {
 	
-		value = ( randomNumber(-50, 50) / 100);
+		value = ( randomNumber(-25, 25) / 100);
 		object.price = value + object.price;
 
 			if (object.price > 9.99) {
